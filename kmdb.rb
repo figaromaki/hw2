@@ -81,6 +81,7 @@ Studio.destroy_all
 Movie.destroy_all
 Actor.destroy_all
 Role.destroy_all
+Agent.destroy_all
 
 # Generate models and tables, according to the domain model.
 # rails generate model Studio
