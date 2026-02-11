@@ -1,6 +1,6 @@
-class CreateActors < ActiveRecord::Migration[8.1]
+class CreateAgents < ActiveRecord::Migration[8.1]
   def change
-    create_table :actors do |t|
+    create_table :agents do |t|
       t.string "name"
       t.integer "agent_id"
       t.timestamps
